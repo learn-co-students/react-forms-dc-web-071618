@@ -344,7 +344,7 @@ handleLastNameChange = event => {
 If we connect this method to both of our `input`s, they will both correctly
 update state. Why? Because for the first `input`, `event.target.name` is set to
 `firstName`, while in the second `input`, it is set to `lastName`. Each
-`input`'s `name` attribute will change which part of state is actually updated!
+`input`'s `name` atribute will change which part of state is actually updated!
 
 ## Resources
 
